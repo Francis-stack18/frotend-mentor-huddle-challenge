@@ -55,6 +55,16 @@ body {
   border-radius: 30px;
   font-size: 2rem;
   font-weight: 400;
+  transition-duration: 0.3s;
+}
+
+.content .texto button:hover {
+  background-color: hsl(257, 40%, 49%);
+  color: white;
+}
+
+.content .texto button:active {
+  transform: scale(0.97);
 }
 
 .social {
